@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+button{
+    border-radius: 15px;
+    padding: 15px;
+    height: auto;
+    width: 200px;
+}
+button:hover{
+    background-color:rgb(143, 143, 143);
+}
+.StudentList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+}
+th{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+td{
+    border-radius: 10px;
+    background-color:rgb(225, 225, 225) ;
+}
+
+input[type="checkbox"]:focus {
+    outline: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.deleteBtn,.submitBtn{
+    width: auto;
+    background-color: transparent;
+}
+form{
+    margin: 10px;
+}
+.f1{
+    font-size:larger;
+}
+select,input{
+    border-radius: 5px;
+    padding: 10px;
+}
